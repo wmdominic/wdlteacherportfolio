@@ -98,9 +98,6 @@ li.c {
     list-style: upper-alpha;
 }
 
-li.d {
-    list-style: ;
-}
 
 li.e {
     list-style: upper-alpha;
@@ -123,19 +120,35 @@ p {
 /* unvisited link */
 a:link {
     color: black;
-  }
+}
   
   /* visited link */
-  a:visited {
+a:visited {
     color: black;
-  }
+}
   
   /* mouse over link */
-  a:hover {
+a:hover {
     color: oldlace;
-  }
+}
   
   /* selected link */
-  a:active {
+a:active {
     color: seashell;
-  }
+}
+
+.indent {
+    padding-left: 50px;
+}
+
+.template :link {
+    color: rgb(55, 123, 248)
+}
+
+.template :visited {
+    color: rgb(55, 123, 248);
+}
+
+.template :hover {
+    color: skyblue;
+}
